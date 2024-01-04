@@ -23,3 +23,17 @@ body{
     font-family: 'Poppins', sans-serif;
     color: var(--primary-text-color);
 }
+
+
+.logo-img{
+    height: 52px;
+    border-radius: 23px;
+    display: inline-block;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
