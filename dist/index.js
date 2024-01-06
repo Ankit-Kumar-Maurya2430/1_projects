@@ -9,10 +9,9 @@ hambar.addEventListener('click', function(e){
   
   if(navbar.style.display ='grid'){
     bars.style.display = "none";
-    console.log("add menu");
+    console.log("add menus");
   }else{
     bars.style.display = "display";
-    console.log("remove menu");
   }
 
   
@@ -24,6 +23,5 @@ nav.addEventListener('click', function(e){
      console.log("remove menu");
    } else {
      hambar.style.display = "none";
-     console.log("remove menu");
    }
 })
